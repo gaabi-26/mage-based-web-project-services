@@ -5,7 +5,11 @@
 
 body{
     background-color: #cdd4f1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
 header{
     background-color: aliceblue;
     height: 130px;
@@ -16,8 +20,10 @@ header{
 main{
     background-color: aliceblue;
     text-align: center;
-    height: 300px;
-    width: 2000px;
+    height: 70vh;
+    width: 190vh;
+    margin-top: 100px;
+    border-radius: 15px;
     
 }
 
@@ -26,9 +32,13 @@ main{
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-
+    flex-wrap: wrap;
+    gap: 10px;
+    border: 1px solid black;
 }
 .items{
     text-align: start;
+    width: calc(33.33% - 20px);
+    
 }
 
