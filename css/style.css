@@ -11,34 +11,49 @@ body{
 }
 
 header{
-    background-color: aliceblue;
+    background-color: white;
     height: 130px;
     width: 2000px;
     padding-bottom: 40px;
 }
 
 main{
-    background-color: aliceblue;
+    background-color: white;
     text-align: center;
     height: 70vh;
-    width: 190vh;
+    width: 170vh;
     margin-top: 100px;
     border-radius: 15px;
     
 }
+section{
+    
+    margin-bottom: 30px;
+}
 
 
-.flex-containter{
+.flex-container{
     display: flex;
-    align-items: center;
-    justify-content: space-evenly;
     flex-wrap: wrap;
-    gap: 10px;
+    justify-content: space-around;
+    
+    gap: 20px;
     border: 1px solid black;
 }
 .items{
     text-align: start;
-    width: calc(33.33% - 20px);
-    
+    width: calc(30% - 20px); 
+    height: 220px;
+    border: 1px solid black;   
 }
 
+.items h3{
+    margin: 5px 0;
+}
+
+.items img {
+    width: 35px;
+    border-radius: 50%; 
+    background-color: blue; 
+    
+}
