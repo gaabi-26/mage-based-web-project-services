@@ -4,19 +4,19 @@
 }
 @font-face {
     font-family: 'palanquin-bold';
-    src: url(/Fonts/Palanquin/Palanquin-Bold.ttf);
+    src: url(/fonts/Palanquin/Palanquin-Bold.ttf);
 }
 @font-face {
     font-family: 'goldman-sans';
-    src: url(/Fonts/GoldmanSans/App/GoldmanSans_A_Blk.ttf);
+    src: url(/fonts/GoldmanSans/App/GoldmanSans_A_Blk.ttf);
 }
 @font-face {
     font-family: 'goldman-sans-light';
-    src: url(/Fonts/GoldmanSans/App/GoldmanSans_A_Lt.ttf);
+    src: url(/fonts/GoldmanSans/App/GoldmanSans_A_Lt.ttf);
 }
 @font-face {
     font-family: 'roboto';
-    src: url(/Fonts/Roboto/Roboto-Medium.ttf);
+    src: url(/fonts/Roboto/Roboto-Medium.ttf);
 }
 
 body{
@@ -85,7 +85,8 @@ img{
     font-family: 'palanquin-bold';
     font-weight: bold;
     color: #466bdb;
-    font-size: 17px;
+    font-size: 19px;
+
 }
 h1{
     font-family: 'goldman-sans';
