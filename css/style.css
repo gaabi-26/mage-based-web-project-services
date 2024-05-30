@@ -33,7 +33,7 @@ main{
     width: 170vh;
     margin-top: 100px;
     border-radius: 20px;
-    padding: 90px 80px 40px;
+    padding: 90px 80px 10px;
     
 }
 
@@ -54,13 +54,32 @@ main{
     margin: 5px 0;
 }
 
-.items img {
+.contenedor-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 50px;
     height: 50px;
     border-radius: 50%; 
     background-color: #466bdb; 
-    margin-bottom: 10px;
+    margin-bottom: 15px;
 }
+
+img{
+    width: 27px;
+    height: 27px;
+}
+
+.avion{
+    width: 22px;
+    height: 22px;
+}
+
+.kaaba{
+    width: 18px;
+    height: 18px;
+}
+
 
 .services{
     font-family: 'palanquin-bold';
@@ -89,7 +108,8 @@ p{
 
 .items p{
     font-size: 18px;
-    padding-top: 5px;
     line-height: 1.2;
-    flex-grow: 1;   
+    flex-grow: 1;
+    opacity: 90%;   
 }
+
