@@ -27,7 +27,7 @@ body{
 }
 
 main{
-    background-color: white;
+    background-color: #fffefe;
     text-align: center;
     height: 70vh;
     width: 170vh;
@@ -55,9 +55,10 @@ main{
 }
 
 .items img {
-    width: 40px;
+    width: 50px;
+    height: 50px;
     border-radius: 50%; 
-    background-color: #4169c1; 
+    background-color: #466bdb; 
     margin-bottom: 10px;
 }
 
